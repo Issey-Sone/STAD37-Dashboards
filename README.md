@@ -1,6 +1,6 @@
 # STAD37-Dashboards
 Created by Issey Sone and Shahriar Shams <br>
-link: https://isseysone.io/STAD37-Dashboards
+link: https://issey-sone.github.io/STAD37-Dashboards/
 ## Gists: 
 If you prefer to run locally on your machine, run the command in an R terminal to launch the dashboard locally: <br>
 Make sure you have shiny installed, install.packages("shiny") <br> 
