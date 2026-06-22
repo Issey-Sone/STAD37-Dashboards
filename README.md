@@ -1,6 +1,21 @@
 # STAD37-Dashboards
 Created by Issey Sone and Shahriar Shams <br>
 link: https://issey-sone.github.io/STAD37-Dashboards/
+## Required Packages
+Run the following code in an R terminal: 
+required_packages <- c(
+  "tidyverse", "MASS", "shiny", "shinythemes", "plotly",
+  "ellipse", "scales", "bslib", "ggforce", "patchwork",
+  "metR", "mvtnorm", "DT", "readr", "gridExtra", "gganimate",
+  "av", "gifski", "mclust", "factoextra", "corrplot"
+)
+installed <- rownames(installed.packages())
+to_install <- setdiff(required_packages, installed)
+if (length(to_install) > 0) {
+  install.packages(to_install)
+} else {
+  message("All packages are already installed.")
+}
 ## Gists: 
 If you prefer to run locally on your machine, run the command in an R terminal to launch the dashboard locally: <br>
 Make sure you have shiny installed, install.packages("shiny") <br> 
